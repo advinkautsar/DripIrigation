@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "KP",
+  "main": "Subscribber.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "mqtt": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node Subscribber.js"
+  },
+  "keywords": [
+    "DripIrigation"
+  ],
+  "author": "advin",
+  "license": "ISC"
+}
