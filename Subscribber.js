@@ -16,7 +16,7 @@ const header = {
     'Content-Type': 'application/x-www-form-urlencoded',
     'Content-Length': Buffer.byteLength(postData)
 }
-axios.post('https://ta.poliwangi.ac.id/~ti18068/simpan', postData, header)
+axios.post('https://ta.poliwangi.ac.id/~ti18068/api/simpan', postData, header)
 .then(res => {
     console.log(res.data)
 })
